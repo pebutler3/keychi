@@ -1,0 +1,7 @@
+@mixin border-mixin($border-top: '', $border-right: '', $border-bottom: '', $border-left: '') {
+  border-top: $border-top;
+  border-right: $border-right;
+  border-bottom: $border-bottom;
+  border-left: $border-left;
+}
+
