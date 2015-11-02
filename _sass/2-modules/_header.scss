@@ -1,0 +1,12 @@
+header {
+  @include panel($bg: $lt-blue, $border: false);
+  border-top: 5px solid $blue;
+  margin-bottom: 0;
+
+  h1 {
+    color: $white;
+    font-weight: normal;
+    letter-spacing: 3px;
+  }
+
+}
