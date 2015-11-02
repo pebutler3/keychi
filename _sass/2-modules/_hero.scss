@@ -1,0 +1,9 @@
+.hero {
+  background: url(../img/hero.jpg) no-repeat center center;
+  background-size: cover;
+}
+@media #{$medium-up} {
+  .hero {
+    min-height: 400px;
+  }
+}
