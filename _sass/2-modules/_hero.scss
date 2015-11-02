@@ -1,9 +1,21 @@
 .hero {
   background: url(../img/hero.jpg) no-repeat center center;
   background-size: cover;
+  text-align: center;
+
+  svg#logo-main {
+    display: block;
+    padding: 2em 0;
+    margin: 0 auto;
+    width: 300px;
+  }
+
 }
+
 @media #{$medium-up} {
+
   .hero {
     min-height: 400px;
   }
+
 }
