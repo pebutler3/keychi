@@ -1,0 +1,30 @@
+.welcome {
+  position: relative;
+  @include grid-row;
+  @include grid-column(12);
+  text-align: center;
+
+  h2 {
+    display: inline-block;
+    @include border-mixin($border-top: 1px solid $black, $border-bottom: 1px solid $black);
+    padding: .5em 1em;
+    margin: 1.5em auto 1em auto;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      background: $white;
+      margin-top: .2em;
+      width: 15px;
+      height: 15px;
+      border: 1px solid;
+      border-radius: 100%;
+      text-align: center;
+    }
+
+  }
+
+}
