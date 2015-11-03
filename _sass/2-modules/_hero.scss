@@ -1,6 +1,7 @@
 .hero {
   background: url(../img/hero.jpg) no-repeat center center;
   background-size: cover;
+  border-bottom: 3px solid $blue;
   text-align: center;
 
   svg {
@@ -10,6 +11,14 @@
     max-width: 300px;
   }
 
+  a.button {
+    display: inline-block;
+    background: $orange;
+    margin-bottom: 2em;
+
+    &:hover { background: darken($orange, 5%); }
+
+  }
 }
 
 @media #{$medium-up} {
