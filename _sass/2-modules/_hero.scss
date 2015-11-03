@@ -3,11 +3,11 @@
   background-size: cover;
   text-align: center;
 
-  svg#logo-main {
+  svg {
     display: block;
-    padding: 2em 0;
+    padding: 3em 0 1.5em 0;
     margin: 0 auto;
-    width: 300px;
+    max-width: 300px;
   }
 
 }
