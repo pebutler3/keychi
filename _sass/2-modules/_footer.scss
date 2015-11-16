@@ -1,4 +1,12 @@
 footer {
-	@include panel($bg: $black, $border: false);
 	@include grid-row;
+  background: $lt-blue;
+  min-height: 200px;
+
+  .attribution {
+
+    p { @include grid-column(6); }
+
+  }
+
 }
