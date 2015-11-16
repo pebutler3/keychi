@@ -1,7 +1,6 @@
 .welcome {
   position: relative;
   @include grid-row;
-  @include grid-column(12);
   text-align: center;
 
   h2 {
